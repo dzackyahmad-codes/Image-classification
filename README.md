@@ -124,8 +124,11 @@ This notebook uses **MobileNetV2 pre-trained on ImageNet** as a feature extracto
 ### Quantitative Results
 
 | Model Type                | Test Accuracy |
+
 | ------------------------- | ------------- |
+
 | Custom CNN                | ~39%          |
+
 | MobileNetV2 (Pre-trained) | ~95%          |
 
 ### Visual Results
