@@ -124,11 +124,8 @@ This notebook uses **MobileNetV2 pre-trained on ImageNet** as a feature extracto
 ### Quantitative Results
 
 | Model Type                | Test Accuracy |
-
 | ------------------------- | ------------- |
-
 | Custom CNN                | ~39%          |
-
 | MobileNetV2 (Pre-trained) | ~95%          |
 
 ### Visual Results
@@ -149,7 +146,8 @@ The following figures show the final evaluation results for both approaches:
 * Transfer learning significantly improves performance by leveraging prior knowledge from large-scale datasets.
 * Freezing the pre-trained backbone ensures better generalization and prevents overfitting.
 
----------------------------|---------------|
+| Model Type                | Test Accuracy |
+| ------------------------- | ------------- |
 | Custom CNN                | ~39%          |
 | MobileNetV2 (Pre-trained) | ~95%          |
 
